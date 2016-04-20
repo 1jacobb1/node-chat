@@ -1,0 +1,595 @@
+2016-04-15 04:12:12 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 C:\xampp\htdocs\node-chat\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 C:\xampp\htdocs\node-chat\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#7 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#8 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-15 04:12:12 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 C:\xampp\htdocs\node-chat\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 C:\xampp\htdocs\node-chat\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#7 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#8 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-15 04:12:26 Error: [MissingActionException] Action LoginController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'LoginController',
+  'action' => 'index',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#2 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-15 04:12:26 Error: [MissingActionException] Action LoginController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'LoginController',
+  'action' => 'index',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#2 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-15 04:12:27 Error: [MissingActionException] Action LoginController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'LoginController',
+  'action' => 'index',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#2 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-15 04:12:27 Error: [MissingActionException] Action LoginController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'LoginController',
+  'action' => 'index',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#2 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-15 04:12:28 Error: [MissingActionException] Action LoginController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'LoginController',
+  'action' => 'index',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#2 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-15 04:12:28 Error: [MissingActionException] Action LoginController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'LoginController',
+  'action' => 'index',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#2 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-15 04:12:28 Error: [MissingActionException] Action LoginController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'LoginController',
+  'action' => 'index',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#2 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-15 04:12:28 Error: [MissingActionException] Action LoginController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'LoginController',
+  'action' => 'index',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#2 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-15 04:12:28 Error: [MissingActionException] Action LoginController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'LoginController',
+  'action' => 'index',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#2 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-15 04:12:49 Error: [MissingViewException] View file "Login\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Login\\index.ctp',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#4 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:12:50 Error: [MissingViewException] View file "Login\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Login\\index.ctp',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#4 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:12:51 Error: [MissingViewException] View file "Login\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Login\\index.ctp',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#4 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:12:51 Error: [MissingViewException] View file "Login\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Login\\index.ctp',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#4 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:12:51 Error: [MissingViewException] View file "Login\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Login\\index.ctp',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#4 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:12:51 Error: [MissingViewException] View file "Login\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Login\\index.ctp',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#4 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:12:52 Error: [MissingViewException] View file "Login\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Login\\index.ctp',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#4 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-15 04:16:38 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logins',
+  'class' => 'Login',
+  'ds' => 'default',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(3644): Model->setSource('logins')
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Login', 'fields')
+#4 C:\xampp\htdocs\node-chat\app\View\Login\index.ctp(2): FormHelper->create('')
+#5 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#11 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-15 04:16:39 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logins',
+  'class' => 'Login',
+  'ds' => 'default',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(3644): Model->setSource('logins')
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Login', 'fields')
+#4 C:\xampp\htdocs\node-chat\app\View\Login\index.ctp(2): FormHelper->create('')
+#5 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#11 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-15 04:16:40 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logins',
+  'class' => 'Login',
+  'ds' => 'default',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(3644): Model->setSource('logins')
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Login', 'fields')
+#4 C:\xampp\htdocs\node-chat\app\View\Login\index.ctp(2): FormHelper->create('')
+#5 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#11 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-15 04:19:10 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logins',
+  'class' => 'Login',
+  'ds' => 'default',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(3644): Model->setSource('logins')
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Login', 'fields')
+#4 C:\xampp\htdocs\node-chat\app\View\Login\index.ctp(2): FormHelper->create('')
+#5 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#11 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-15 04:20:11 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\node-chat\app\View\Login\index.ctp, line 7]
+2016-04-15 04:20:11 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-15 04:20:13 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\node-chat\app\View\Login\index.ctp, line 7]
+2016-04-15 04:20:13 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-15 04:20:13 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\node-chat\app\View\Login\index.ctp, line 7]
+2016-04-15 04:20:13 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-15 04:20:13 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\node-chat\app\View\Login\index.ctp, line 7]
+2016-04-15 04:20:13 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-15 04:20:14 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\node-chat\app\View\Login\index.ctp, line 7]
+2016-04-15 04:20:14 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-15 04:20:14 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\node-chat\app\View\Login\index.ctp, line 7]
+2016-04-15 04:20:14 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-15 04:20:15 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\node-chat\app\View\Login\index.ctp, line 7]
+2016-04-15 04:20:15 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-15 04:20:15 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\node-chat\app\View\Login\index.ctp, line 7]
+2016-04-15 04:20:15 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-15 04:20:16 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\node-chat\app\View\Login\index.ctp, line 7]
+2016-04-15 04:20:16 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\node-chat\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-15 04:28:36 Error: [MissingControllerException] Controller class SController could not be found.
+Exception Attributes: array (
+  'class' => 'SController',
+  'plugin' => NULL,
+)
+Request URL: /%20s/index/controllers:login/actions:index
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-15 04:31:15 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logins',
+  'class' => 'Login',
+  'ds' => 'default',
+)
+Request URL: /login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(3644): Model->setSource('logins')
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Login', 'fields')
+#4 C:\xampp\htdocs\node-chat\app\View\Login\index.ctp(2): FormHelper->create('Login', Array)
+#5 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#11 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-15 04:31:48 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users/index/controllers:login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-15 04:32:02 Error: [MissingControllerException] Controller class SController could not be found.
+Exception Attributes: array (
+  'class' => 'SController',
+  'plugin' => NULL,
+)
+Request URL: /%20s/index/controllers:login
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-15 08:37:00 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logins',
+  'class' => 'Login',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(3644): Model->setSource('logins')
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Login', 'fields')
+#4 C:\xampp\htdocs\node-chat\app\View\Login\index.ctp(2): FormHelper->create()
+#5 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#11 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-15 08:37:01 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logins',
+  'class' => 'Login',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(3644): Model->setSource('logins')
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Login', 'fields')
+#4 C:\xampp\htdocs\node-chat\app\View\Login\index.ctp(2): FormHelper->create()
+#5 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#11 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-15 08:37:01 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logins',
+  'class' => 'Login',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(3644): Model->setSource('logins')
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Login', 'fields')
+#4 C:\xampp\htdocs\node-chat\app\View\Login\index.ctp(2): FormHelper->create()
+#5 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#11 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-15 08:37:01 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logins',
+  'class' => 'Login',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(3644): Model->setSource('logins')
+#1 C:\xampp\htdocs\node-chat\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\xampp\htdocs\node-chat\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Login', 'fields')
+#4 C:\xampp\htdocs\node-chat\app\View\Login\index.ctp(2): FormHelper->create()
+#5 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\node-chat\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\node-chat\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\xampp\htdocs\node-chat\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#11 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-15 08:38:54 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /add
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-15 10:14:09 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /http//127.0.0.1:8081/socket.io/socket.io.js
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-15 10:14:30 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /http//127.0.0.1:8081/socket.io/socket.io.js
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-15 10:14:30 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /http//127.0.0.1:8081/socket.io/socket.io.js
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-15 10:14:45 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /http//127.0.0.1:8081/socket.io/socket.io.js
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-15 10:14:45 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /http//127.0.0.1:8081/socket.io/http//127.0.0.1:8081/socket.io/socket.io.js
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-15 10:15:09 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /http//127.0.0.1:8081/socket.io/socket.io.js
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-15 10:15:10 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /http//127.0.0.1:8081/socket.io/socket.io.js
+Stack Trace:
+#0 C:\xampp\htdocs\node-chat\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
