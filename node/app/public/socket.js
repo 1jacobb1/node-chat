@@ -28,10 +28,11 @@ var Connect = (function() {
 
   Evts.showUser = function(data) {
     var tdUsername = "<td id='username-"+data.id+"'>"+data.username+"</td>";
+    var tdId = "<td id='id-"+data.id+"'>"+data.id+"</td>";
     var tdPassword = "<td id='password-"+data.id+"'>********</td>";
     var tdActionButton = "<td id='action-"+data.id+"'><button onclick='_edit("+data.id+");' id='edit-"+data.id+"'>edit</button> | <button onclick='_delete("+data.id+");' id='delete-"+data.id+"'>delete</button></td>";
     var hiddenInput = "<input type='text' id='in-username-"+data.id+"' value='"+data.username+"'><input type='text' id='in-password-"+data.id+"' value='"+data.password+"'>";
-    $('#current_userss > tbody:last-child').append("<tr>"+hiddenInput+"<td> </td>"+tdUsername+tdPassword+tdActionButton+"</tr>");
+    $('#current_userss > tbody:last-child').append("<tr>"+hiddenInput+tdId+tdUsername+tdPassword+tdActionButton+"</tr>");
   }
 
   Evts.remove_user = function(data) {
@@ -48,11 +49,12 @@ var Connect = (function() {
   Evts.return_all_users = function(data) {
     $('#current_userss > tbody').html('');
     for (var i = 0; i<data.length; i++) {
+      var tdId = "<td id='id-"+data[i].id+"'>"+data[i].id+"</td>";
       var tdUsername = "<td id='username-"+data[i].id+"'>"+data[i].username+"</td>";
       var tdPassword = "<td id='password-"+data[i].id+"'>********</td>";
       var tdActionButton = "<td id='action-"+data[i].id+"'><button onclick='_edit("+data[i].id+");' id='edit-"+data[i].id+"'>edit</button> | <button onclick='_delete("+data[i].id+");' id='delete-"+data[i].id+"'>delete</button></td>";
       var hiddenInput = "<input type='text' id='in-username-"+data[i].id+"' value='"+data[i].username+"'><input type='text' id='in-password-"+data[i].id+"' value='"+data[i].password+"'>";
-      $('#current_userss > tbody:last-child').append("<tr>"+hiddenInput+"<td> </td>"+tdUsername+tdPassword+tdActionButton+"</tr>");
+      $('#current_userss > tbody:last-child').append("<tr>"+hiddenInput+tdId+tdUsername+tdPassword+tdActionButton+"</tr>");
     }
   }
 

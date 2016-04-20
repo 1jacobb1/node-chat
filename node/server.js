@@ -21,6 +21,7 @@ app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(__dirname + '/app/public'));
+app.use(express.static(__dirname + '/app/node_modules/bootstrap')); 
 
 /*fs.readdirSync('./app/Controller').forEach(function(file) {
   if(file.substr(-3) == "ejs") {
@@ -33,7 +34,7 @@ app.use(express.static(__dirname + '/app/public'));
 app.get('/', function(req,res) {
   var userTable = [];
   modelUser.findAll({where: {status : 1}}).then(function(users) {
-    res.render('Crud/index', {users:users});
+    res.render('Home/index', {users:users});
   })
 });
 
