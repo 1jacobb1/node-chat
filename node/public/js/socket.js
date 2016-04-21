@@ -10,8 +10,15 @@ var Connect = (function() {
   var Evts = {};
   var count = 0;
 
+  c.streamProfileImage = function(data) {
+    var stream = ss.createStream();
+    var filename = data.profile_image.name;
+    ss(socket).emit('profile_image', stream, {name: filename});
+  }
+
   c.sendMessage = function(data) {
     socket.emit('send_message',data);
+    console.log(data);
   }
 
   c.deleteUser = function(data) {
@@ -24,6 +31,11 @@ var Connect = (function() {
 
   c.getAllUser = function(data) {
     socket.emit('show_all_user', {});
+  }
+
+  Evts.broadcastImage = function(data) {
+    console.log(data);
+    $('#profile-img').attr('src', data.image);
   }
 
   Evts.showUser = function(data) {

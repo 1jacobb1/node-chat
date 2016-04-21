@@ -9,41 +9,71 @@ var port          = "8081";
 var fs            = require('fs');
 var seq           = require('sequelize');
 var ejs           = require('ejs');
+var ss            = require('socket.io-stream');
+var path          = require('path');
+var passport      = require('passport');
+var session       = require('client-sessions');
 
-// establish connection
+// load user defined modules
+var modelUser     = require('./app/Model/Users');
+var fileHandler   = require('./fileHandler');
+
 var conn = new seq('node_chat', 'root', '');
 
-var modelUser     = require('./app/Model/Users');
-
+// configure express
 app.set('views', __dirname + '\\app\\View\\');
 app.engine('html', ejs.renderFile);
 app.set('view engine', 'ejs');
-
 app.use(bodyParser.urlencoded({extended:true}));
-app.use(express.static(__dirname + '/app/public'));
+app.use(express.static('public'));
+app.use(express.static('public/uploads'));
 app.use(express.static(__dirname + '/app/node_modules/bootstrap')); 
+app.use(session({
+  cookieName: 'session',
+  secret: 'jacob',
+  duration: 86400,
+  activeDuration: 86400
+}));
 
-/*fs.readdirSync('./app/Controller').forEach(function(file) {
-  if(file.substr(-3) == "ejs") {
-    route = require('./app/Controller/'+file);
-    route.controller(app);
-    console.log(app);
-  }
-})*/
-
-app.get('/', function(req,res) {
+app.get('/home', function(req,res) {
   var userTable = [];
   modelUser.findAll({where: {status : 1}}).then(function(users) {
     res.render('Home/index', {users:users});
   })
 });
 
-app.post('/add', function(req,res) {
-  if (req.body.username && req.body.password) {
-    modelUser.create(req.body).then(function(user) {
-      res.send(user);
-    })
-  }
+function hasSession(req, res, next) {
+  console.log(req.session);
+  next();
+}
+
+app.get('/',  function(req, res) {
+  res.render('Home/login');
+})
+
+app.post('/login', function(req, res) {
+  console.log(req.body);
+  modelUser.findOne(req.body, function(err, user) {
+    if(!user) {
+      res.send('Invalid username or password');
+    } else {
+      res.send('redirect to home page..');
+    }
+  })
+  /*if (req.body.username && req.body.password) {
+    req.session = req.body.user;
+    console.log(req.session);
+    res.redirect('/home');
+  } else {
+    res.redirect('/');
+  }*/
+})
+
+app.get('/profile', function(req,res) {
+  res.writeHead(200, {"Context-Type" : "text/html"});
+  res.write("Here's some data dude!");
+  res.write("<img src='black.jpg'/>");
+  res.end();
 })
 
 io.on('connection', function(socket) {
@@ -59,6 +89,13 @@ io.on('connection', function(socket) {
       io.emit('showUser', results);
       console.log(results);
     });
+  })
+
+  //uploading profile image
+  ss(socket).on('profile_image', function(stream, data) {
+    var filename = path.basename(data.name);
+    stream.pipe(fs.createWriteStream('./public/uploads/'+filename));
+    socket.emit('broadcastImage', {image: filename});
   })
 
   // update user status
@@ -80,12 +117,11 @@ io.on('connection', function(socket) {
   socket.on('show_all_user', function(data) {
     modelUser.findAll({where: {status:1}}).then(function(results) {
       io.emit('return_all_users', results);
-    }).catch(function(err) {
     })
   })
 
 });
 
-http.listen(port, function() {
+http.listen(port, function(req) {
   console.log("Listening spotify: "+port);
 })

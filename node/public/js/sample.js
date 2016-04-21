@@ -3,15 +3,26 @@ $(document).ready(function() {
   $('#btn-add-user').click(function(e) {
     username = $.trim($('#username').val());
     password = $.trim($('#password').val());
+    var fileName = $('#profile_image').val().split('/').pop().split('\\').pop();
     if (username && password) {
       data = {
         username: username,
-        password: password
+        password: password,
+        profile_image: fileName
       }
       Connect.sendMessage(data);
     }
     e.preventDefault;
   })
+  console.log(myObj);
+  $('#profile_image').change(function(e) {
+    alert(1);
+    var data = {
+      profile_image : e.target.files[0]
+    };
+    Connect.streamProfileImage(data);
+  })
+
   getAllUsers();
 })
 function _edit(id) {
